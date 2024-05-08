@@ -1,6 +1,9 @@
 {
-    "devDependencies": {
-      "vercel-php": "^0.3.6"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.php"
     }
-  }
-  
+  ]
+}
