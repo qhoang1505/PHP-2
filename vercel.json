@@ -1,0 +1,9 @@
+{
+    "engines": {
+      "node": "20.x"
+    },
+    "scripts": {
+      "dev": "vercel-php dev",
+      "build": "vercel-php build"
+    }
+  }
